@@ -13,6 +13,7 @@
 		C21C127D21BA45BC00CABDED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21C127C21BA45BC00CABDED /* Assets.xcassets */; };
 		C21C128021BA45BC00CABDED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21C127E21BA45BC00CABDED /* LaunchScreen.storyboard */; };
 		C21C128321BA45BC00CABDED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C21C128221BA45BC00CABDED /* main.m */; };
+		C21C128B21BA48F200CABDED /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21C128A21BA48F200CABDED /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C21C127F21BA45BC00CABDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C21C128121BA45BC00CABDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C21C128221BA45BC00CABDED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C21C128921BA48F200CABDED /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		C21C128A21BA48F200CABDED /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				C21C127321BA45BB00CABDED /* AppDelegate.h */,
 				C21C127421BA45BB00CABDED /* AppDelegate.m */,
+				C21C128921BA48F200CABDED /* MyView.h */,
+				C21C128A21BA48F200CABDED /* MyView.m */,
 				C21C127621BA45BB00CABDED /* ViewController.h */,
 				C21C127721BA45BB00CABDED /* ViewController.m */,
 				C21C127921BA45BB00CABDED /* Main.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21C128B21BA48F200CABDED /* MyView.m in Sources */,
 				C21C127821BA45BB00CABDED /* ViewController.m in Sources */,
 				C21C128321BA45BC00CABDED /* main.m in Sources */,
 				C21C127521BA45BB00CABDED /* AppDelegate.m in Sources */,
