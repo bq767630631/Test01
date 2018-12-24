@@ -14,6 +14,8 @@
 		C21C128021BA45BC00CABDED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21C127E21BA45BC00CABDED /* LaunchScreen.storyboard */; };
 		C21C128321BA45BC00CABDED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C21C128221BA45BC00CABDED /* main.m */; };
 		C21C128B21BA48F200CABDED /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21C128A21BA48F200CABDED /* MyView.m */; };
+		C2CA8BF221CA68610092C53E /* UIViewController+Extion.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CA8BF121CA68610092C53E /* UIViewController+Extion.m */; };
+		C2CA8BF521CA68800092C53E /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CA8BF421CA68800092C53E /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		C21C128221BA45BC00CABDED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C21C128921BA48F200CABDED /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
 		C21C128A21BA48F200CABDED /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		C2CA8BF021CA68610092C53E /* UIViewController+Extion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extion.h"; sourceTree = "<group>"; };
+		C2CA8BF121CA68610092C53E /* UIViewController+Extion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extion.m"; sourceTree = "<group>"; };
+		C2CA8BF321CA68800092C53E /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		C2CA8BF421CA68800092C53E /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +71,12 @@
 				C21C127421BA45BB00CABDED /* AppDelegate.m */,
 				C21C128921BA48F200CABDED /* MyView.h */,
 				C21C128A21BA48F200CABDED /* MyView.m */,
+				C2CA8BF321CA68800092C53E /* AViewController.h */,
+				C2CA8BF421CA68800092C53E /* AViewController.m */,
 				C21C127621BA45BB00CABDED /* ViewController.h */,
 				C21C127721BA45BB00CABDED /* ViewController.m */,
+				C2CA8BF021CA68610092C53E /* UIViewController+Extion.h */,
+				C2CA8BF121CA68610092C53E /* UIViewController+Extion.m */,
 				C21C127921BA45BB00CABDED /* Main.storyboard */,
 				C21C127C21BA45BC00CABDED /* Assets.xcassets */,
 				C21C127E21BA45BC00CABDED /* LaunchScreen.storyboard */,
@@ -146,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2CA8BF521CA68800092C53E /* AViewController.m in Sources */,
+				C2CA8BF221CA68610092C53E /* UIViewController+Extion.m in Sources */,
 				C21C128B21BA48F200CABDED /* MyView.m in Sources */,
 				C21C127821BA45BB00CABDED /* ViewController.m in Sources */,
 				C21C128321BA45BC00CABDED /* main.m in Sources */,
